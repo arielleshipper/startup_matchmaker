@@ -1,0 +1,297 @@
+*{
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+header{
+	background-color: black;
+	height: 100px;
+	padding: 35px 0px 35px 35px;
+}
+
+header h1{
+	font-family: Merriweather, sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: yellow;
+	float: left;
+}
+
+nav{
+	float: right;
+	padding-right: 50px;
+}
+
+ul li{
+	font-family: "Source Sans", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	list-style: none;
+	display: inline;
+	/*padding-right: 25px;*/
+}
+
+.nav-list a{
+	color: white;
+	text-decoration: none;
+	padding: 2.5rem 12.5px;
+}
+
+.nav-list a:hover{
+	background-color: #666;
+	height: 100px;
+	
+}
+
+
+.caps {
+	font-family: Oswald, sans-serif;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.header-border{
+	height: 5px;
+	background-color: yellow;
+}
+
+.two-brains{
+	height: 75px;
+	background-color: #ddd;
+	font-family: Merriweather, sans-serif;
+	font-weight: 700italic;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.taste {
+	color: #c6c6c6;
+}
+
+.are ins{
+	color: yellow;
+}
+
+.photo{
+  background: url('../images/coworking.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.white-box{
+	background-color: rgba(255, 255, 255, 0.5);
+	float: right;
+	width: 500px;
+	border: 2px;
+	margin: 40px 40px 0px 0px;
+}
+
+.white-box h2{
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.white-box p{
+	font-family: "Source Sans", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.vp {
+	overflow: hidden;
+	width: 77%;
+	margin: 0px auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.profile-button{
+	font-family: Oswald, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	background-color: #fdf731;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.CTAS{
+	overflow: hidden;
+	width: 100%;
+}
+
+.cta_container {
+	overflow: hidden;
+	margin: 30px 120px;
+	width: 99%;
+}
+
+.profile{
+	float: left;
+	width: 25%;
+	margin-right: 80px;
+	padding-right: 60px;
+	border-right: 1px solid #c6c6c6;
+}
+
+.profile h3{
+	font-family: Merriweather, sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.profile p{
+	font-family: "Source Sans", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.cta-button{
+	background-color: #c6c6c6;
+	text-align: center;
+	padding: 10px 25px 10px 25px;
+}
+
+
+.cta-button a{
+	font-family: Oswald, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.developer{
+	float: left;
+	width: 25%;
+	margin-right: 80px;
+	padding-right: 60px;
+	border-right: 1px solid #c6c6c6;
+}
+
+.developer h3{
+	font-family: Merriweather, sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.developer p{
+	font-family: "Source Sans", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.designer{
+	float: left;
+	width: 25%;
+	margin-right: 60px;
+}
+
+.designer h3{
+	font-family: Merriweather, sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.designer p{
+	font-family: "Source Sans", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.gray-background {
+	background-color: #c6c6c6;
+	width: 100%;
+}
+
+.row-1{
+	margin-top: 10px;
+	width: 95%;
+	margin: 20px auto;
+	overflow: hidden;
+
+}
+
+.rectangle-box{
+	width: 22%;
+	height: 410px;
+	background-color: white;
+	padding-top: 10px;
+	float: left;
+	margin-right: 40px;
+}
+
+.square-box{
+	width: 280px;
+	height: 280px;
+	background-color: #c6c6c6;
+	margin: 0 auto;
+}
+
+.text{
+	overflow: hidden;
+	width: 280px;
+	margin: 5px auto;
+}
+
+.text p{
+	font-family: "Source Sans", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.buttons{
+	font-size: 20px;
+	overflow: hidden;
+	width: 280px;
+	margin: 5px auto;
+	margin-bottom: 12px;
+}
+
+.buttons_text{
+	font-family: "Source Sans", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+	margin-right: 6px;
+	float: left;
+	background-color: #666;
+	padding: 4px 8px;
+	border-radius: 8px;
+}
+
+.contact-CTA{
+	font-family: Oswald, sans-serif;
+	font-weight: 700px;
+	font-size: 20px;
+	background-color: #fdf731;
+	overflow: hidden;
+	clear: both;
+	width: 280px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0px 10px 0px;
+	border-radius: 6px;
+	border-style: solid;
+	border-bottom-color: #cac402;
+	border-bottom-width: 4px;
+}
+
+footer{
+	font-family: "Source Sans", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	height: 100px;
+	padding: 40px 0px 40px 50px;
+}
